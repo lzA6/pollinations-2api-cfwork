@@ -1,0 +1,6 @@
+name = "pollinations-2api"  # 你的 Worker 名称，可以改，但要唯一
+main = "src/index.js"      # 入口文件路径，如果代码在根目录 index.js，就改成 "index.js"
+compatibility_date = "2025-11-09"  # 今天日期，用 JS 最新兼容性
+
+# 可选：如果你想绑定自定义域名或 KV 等，后面加。这里先简单
+workers_dev = true
